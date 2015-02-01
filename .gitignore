@@ -4,6 +4,9 @@
 !app/cache/.gitkeep
 !app/logs/.gitkeep
 
+#Librerias Symfony2
+vendor/*
+
 # Cache and logs (Symfony3)
 /var/cache/*
 /var/logs/*
@@ -23,8 +26,10 @@
 /vendor/
 
 # Assets and user uploads
-/web/bundles/
-/web/uploads/
+web/bundles/*
+web/uploads/*
+web/css/*
+web/js/*
 
 # PHPUnit
 /app/phpunit.xml
@@ -33,3 +38,10 @@
 # Composer PHAR
 /composer.phar
 /nbproject/private/
+
+#Archivos del IDE
+
+.buildpath
+.project
+.settings
+nbproject
